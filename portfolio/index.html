@@ -1,0 +1,184 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Home</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/flexbox.css">
+  <!-- icons inside the tab -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <!-- social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+
+<body style="background-color:white">
+
+  <header class="main-header">
+    <div class="header-wrapper">
+      <div class="header-logo">
+       <a href="index.html">
+         <img src="img/LOGO.png" width="60px">
+       </a>
+      </div>
+    </div>
+
+      <div class="main-nav">
+        <a class="projects-nav-btn" href="index.html">Projects</a>
+        <a class="about-nav-btn" href="about.html" id="MyAccount">About</a>
+
+      </div>
+  </header>
+
+ 
+  
+    <div class="home-name-wrapper">
+      <div class="home-products-text" style="margin-left:0;">
+     
+          <div class="parallax">
+            
+              <br><br><br><br><br><br>
+              <img class="index-img" src="img/gif-arrow2.gif" >
+         
+      
+      </div>
+    </div>
+    </div>
+   
+
+  <!-- <figure class="nakh"></figure> -->
+  <div class="home-wrapper-index">
+    <div class="home-products-wrapper">
+      <div class="home-products first-item">
+          <a href="project5.html">
+              <div id="videosList">
+                <div class="video">
+                    <div class="parent">
+                <video id="home-project-border" class="iat334 addtomeDesign" loop preload="none">
+                    <!-- <source src="img/IAT334Video.mp4" type="video/mp4"> -->
+                  </div>
+                </div>
+                </a>
+                <h4 style="font-weight: bold;" class="top-margin-title5"><a style="color:#4b4b4b;font-weight: bold;" href="project5.html">HiddenGems travel app mockup</a> (<a href="img/IAT334Video.mp4" style="color: gray;font-weight: bold;" >Sample Video</a>) <br><br>  Role: UX/UI Design, Prototyping</h4></h4>
+              </div>
+        </div>
+  
+
+      <div class="home-products">
+          <a href="project4.html">
+              <div id="videosList">
+                <div class="video">
+                    <div class="parent">
+                <video id="home-project-border" class="dealbazar addtomeDesign" loop preload="none">
+                  <!-- <source src="img/DealBazarVideo.mp4" type="video/mp4"> -->
+                  </div>
+                </div>
+                </a>
+                <h4 style="font-weight: bold;" class="top-margin-title4"><a style="color:#4b4b4b;font-weight: bold;" href="project4.html">GreatDealBazar</a> (<a href="img/DealBazarVideo.mp4"  style="color: gray;font-weight: bold;" >Sample Video</a>) <br><br>  Role: UX/UI, Development & Marketing </h4>
+              </div>
+      </div>
+
+
+
+      <div class="home-products">
+          <a href="project10.html">
+          <div id="videosList">
+            <div class="video">
+                <div class="parent">
+            <video id="home-project-border" class="BlueRoute addtomeDesign" loop preload="none">
+              
+              </div>
+            </div>
+            </a>
+            <h4 style="font-weight: bold;" class="top-margin-title6"><a style="color:#4b4b4b;font-weight: bold;" href="project7.html">BlueRoute</a> <br><br>Role: UX/UI Design, Prototyping, User Research</h4>
+          </div>
+        </div>
+
+      <div class="home-products">
+          <a href="project8.html">
+              <div id="videosList">
+                <div class="video">
+                    <div class="parent">
+                <video id="home-project-border" class="ux-ui-project addtomeDesign" loop preload="none">
+                    <!-- <source src="img/IAT334Video.mp4" type="video/mp4"> -->
+                  </div>
+                </div>
+                </a>
+                <h4 style="font-weight: bold;" class="top-margin-title5"><a style="color:#4b4b4b;font-weight: bold;" href="project8.html">Interface Design</a><br><br>Role: UX/UI Design, Prototyping</h4></h4>
+              </div>
+        </div>
+
+    
+
+        <div class="home-products">
+          <a href="project6.html">
+          <div id="videosList">
+            <div class="video">
+                <div class="parent">
+            <video id="home-project-border" class="magDesign addtomeDesign" loop preload="none">
+              
+              </div>
+            </div>
+            </a>
+            <h4 style="font-weight: bold;" class="top-margin-title6"><a style="color:#4b4b4b;font-weight: bold;" href="project6.html">Other Projects</a><br><br>  Role: Graphic Design, Java, C#</h4>
+          </div>
+        </div>
+
+       
+
+
+ 
+
+            
+
+    </div>
+  </div>
+
+  <div class="home-wrapper">
+    <div class="home-products-wrapper">
+      <div class="home-products-text">
+        <div class="animate one">
+  <p style=" margin-top: 2em; font-size: 12px">Portfolio designed and developed by Saleh</p>
+</div>
+</div>
+</div>
+
+
+
+
+<script>
+var figure = $(".video").hover( hoverVideo, hideVideo );
+
+function hoverVideo(e) {
+    $('video', this).get(0).play();
+}
+
+function hideVideo(e) {
+    $('video', this).get(0).pause();
+}
+</script>
+<!-- Top Left name animation -->
+<script>
+$(function2(){
+    $('.repeat').click(function2(){
+        var classes =  $(this).parent().attr('class');
+        $(this).parent().attr('class', 'animate');
+        var indicator = $(this);
+        setTimeout(function2(){
+            $(indicator).parent().addClass(classes);
+        }, 20);
+    });
+});
+</script>
+<!-- Gradient background -->
+<!-- https://codepen.io/quasimondo/pen/lDdrF -->
+
+
+</body>
+</html>

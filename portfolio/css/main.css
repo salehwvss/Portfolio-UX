@@ -485,6 +485,12 @@ text-decoration: none;
   float: right;
   border-radius: 20px;
   }
+  .project4sample{
+    max-width: 520px;
+    float: left;
+    border-radius: 20px;
+    margin-right: 50px;
+    }
 
   .project1sample:hover{
     -ms-transform: scale(2); /* IE 9 */

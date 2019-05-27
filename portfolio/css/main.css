@@ -1691,6 +1691,7 @@ display: block;
   -moz-animation-timing-function: linear;
   -moz-animation-iteration-count: infinite;
   border-radius: 20px;
+  width: fit-content;
 }
 
 #animated-border-purple {
